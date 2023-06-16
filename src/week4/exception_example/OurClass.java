@@ -1,4 +1,4 @@
-package week4.sample1;
+package week4.exception_example;
 
 public class OurClass {
     private final boolean just = true;

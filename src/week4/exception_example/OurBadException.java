@@ -1,4 +1,4 @@
-package week4.sample1;
+package week4.exception_example;
 
 // 예외 클래스를 만들어서 예외를 정의
 

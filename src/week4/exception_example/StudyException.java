@@ -1,4 +1,4 @@
-package week4.sample1;
+package week4.exception_example;
 
 public class StudyException {
     public static void main(String[] args) {
