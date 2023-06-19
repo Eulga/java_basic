@@ -11,7 +11,7 @@ public class Main {
 
         Runnable task = () -> {
             int sum = 0;
-            for (int i = 0; i < 50; i++) {
+            for (int i = 0; i < 20; i++) {
                 sum += i;
                 System.out.println(Thread.currentThread().getName() + "계산 중간 결과: " + sum);
             }

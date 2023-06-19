@@ -22,6 +22,7 @@ public class Main {
         Thread thread1 = new Thread(group1, task, "Thread 1");
         Thread thread2 = new Thread(group1, task, "Thread 2");
 
+
         // Thread에 ThreadGroup 이 할당된것을 확인할 수 있습니다.
         System.out.println("Group of thread1 : " + thread1.getThreadGroup().getName());
         System.out.println("Group of thread2 : " + thread2.getThreadGroup().getName());

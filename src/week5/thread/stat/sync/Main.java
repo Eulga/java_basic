@@ -15,7 +15,7 @@ public class Main {
         // 3개의 thread를 한꺼번에 만들어서 start를 해버림
         // 생성과 동시에 start(NEW -> RUNNABLE)
         for (int i = 0; i < 3; i++) {
-            new Thread(task).start();
+            new Thread(task, "thread" + i).start();
         }
     }
 }
@@ -38,6 +38,7 @@ class AppleStore {
                 }
                 storedApple -= 1;
             }
+            System.out.println(Thread.currentThread().getName());
         }
     }
 }

@@ -34,6 +34,7 @@ public class Main {
                     System.out.println(Thread.currentThread().getName());
                 } catch (InterruptedException e) {
                     e.printStackTrace();
+                    break;
                 }
             }
             System.out.println("task : " + Thread.currentThread().getName());
